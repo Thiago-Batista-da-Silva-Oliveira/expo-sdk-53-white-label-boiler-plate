@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "passenger-app",
-    "slug": "passenger-app",
+    "name": "boiler-app",
+    "slug": "boiler-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

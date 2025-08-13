@@ -1,0 +1,16 @@
+{
+  "build": {
+    "default1": {
+      "env": {
+        "WHITE_LABEL_PROJECT": "default1",
+        "EXPO_PUBLIC_BRAND": "default1"
+      }
+    },
+    "default2": {
+      "env": {
+        "WHITE_LABEL_PROJECT": "default2",
+        "EXPO_PUBLIC_BRAND": "default2"
+      }
+    }
+  }
+}
