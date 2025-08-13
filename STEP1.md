@@ -20,7 +20,7 @@
 
 - [x] Configurar polyfill crypto no `index.ts`:
   ```ts
-  import 'react-native-get-random-values'; // DEVE ser a primeira importação
+  import 'react-native-get-random-values';
   import { registerRootComponent } from 'expo';
   ```
 
