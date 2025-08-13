@@ -1,2 +1,6 @@
 import 'react-native-get-random-values';
-import 'expo-router/entry';
+// Para executar o Storybook, comente a linha abaixo e descomente a do Storybook
+// import 'expo-router/entry';
+import { registerRootComponent } from 'expo';
+import StorybookUIRoot from './Storybook';
+registerRootComponent(StorybookUIRoot);

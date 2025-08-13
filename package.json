@@ -21,7 +21,12 @@
     "typecheck": "tsc --noEmit",
     "build": "npm run typecheck",
     "build:android": "eas build --platform android",
-    "build:ios": "eas build --platform ios"
+    "build:ios": "eas build --platform ios",
+    "storybook": "node scripts/storybook-toggle.js storybook && npm start",
+    "storybook:app": "node scripts/storybook-toggle.js app && npm start",
+    "storybook:toggle": "node scripts/storybook-toggle.js",
+    "storybook:generate": "sb init --type react_native",
+    "storybook:build": "storybook build"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -65,6 +70,10 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@expo/metro-config": "^0.20.17",
+    "@storybook/addon-ondevice-actions": "^9.1.0",
+    "@storybook/addon-ondevice-controls": "^9.1.0",
+    "@storybook/addon-ondevice-knobs": "^7.6.20",
+    "@storybook/react-native": "^9.1.0",
     "@testing-library/jest-native": "^5.4.3",
     "@testing-library/react-native": "^13.2.0",
     "@types/jest": "^30.0.0",
